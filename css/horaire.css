@@ -1,0 +1,163 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of the viewport */
+    margin: 0;
+}
+
+.container {
+    flex: 1; /* Pushes the footer to the bottom */
+}
+
+header {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+  }
+  
+  header nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+  }
+  
+  header nav ul li {
+    margin: 0 15px; 
+  }
+  
+  header nav ul li a {
+    color: #ecf0f1; 
+    text-decoration: none;
+    font-size: 1em; 
+  }
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.grille-horaire {
+    display: grid;
+    grid-template-columns: 120px repeat(5, 1fr); 
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.entete {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.horaire {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cours,
+.exploitation,
+.prog,
+.mathematiques {
+    background-color: #cce5ff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+
+.exploitation {
+    background-color: #ffd1dc;
+}
+
+.prog {
+    background-color: #d1ffd7;
+}
+
+.mathematiques {
+    background-color: #ffe1b2;
+}
+
+
+.details-cours{
+    margin-top: 20px;
+}
+
+.details-cours h2 {
+    text-align: center;
+}
+
+.cours-header {
+    padding:20px;
+    border:2px solid black;
+    background-color:ghostwhite;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+footer {
+    background-color: #34495e; 
+    color: #ecf0f1; 
+    text-align: center; 
+    padding: 40px; 
+    font-size: 0.9em; 
+  }
+  
+  footer .footer-content {
+    margin-bottom: 15px; 
+  }
+  
+  footer .social-icons {
+    margin: 10px 0; 
+  }
+  
+  footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  footer .social-icons img {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  footer .social-icons a:hover img {
+    transform: scale(1.2); 
+  }
+  
+  footer p {
+    margin: 5px 0; 
+  }
+  
+  footer a {
+    color: #ecf0f1; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
